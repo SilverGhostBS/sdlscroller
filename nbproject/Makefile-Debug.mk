@@ -60,7 +60,7 @@ LDLIBSOPTIONS=
 
 ${CND_DISTDIR}/sdlscroller.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}
-	${LINK.c} -o ${CND_DISTDIR}/sdlscroller ${OBJECTFILES} ${LDLIBSOPTIONS} -lsdl
+	${LINK.c} -o ${CND_DISTDIR}/sdlscroller ${OBJECTFILES} ${LDLIBSOPTIONS} -lSDL
 
 ${OBJECTDIR}/main.o: main.c
 	${MKDIR} -p ${OBJECTDIR}

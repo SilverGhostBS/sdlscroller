@@ -40,7 +40,7 @@
         </cTool>
         <linkerTool>
           <output>${CND_DISTDIR}/sdlscroller</output>
-          <commandLine>-lsdl</commandLine>
+          <commandLine>-lSDL</commandLine>
         </linkerTool>
       </compileType>
       <packaging>
