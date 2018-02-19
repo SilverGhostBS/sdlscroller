@@ -8,12 +8,12 @@ CND_BUILDDIR=build
 CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=None-Windows
-CND_ARTIFACT_DIR_Debug=dist/Debug/None-Windows
+CND_ARTIFACT_DIR_Debug=dist
 CND_ARTIFACT_NAME_Debug=sdlscroller
-CND_ARTIFACT_PATH_Debug=dist/Debug/None-Windows/sdlscroller
-CND_PACKAGE_DIR_Debug=dist/Debug/None-Windows/package
+CND_ARTIFACT_PATH_Debug=dist/sdlscroller
+CND_PACKAGE_DIR_Debug=dist/package
 CND_PACKAGE_NAME_Debug=sdlscroller.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/None-Windows/package/sdlscroller.tar
+CND_PACKAGE_PATH_Debug=dist/package/sdlscroller.tar
 # Release configuration
 CND_PLATFORM_Release=None-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/None-Windows

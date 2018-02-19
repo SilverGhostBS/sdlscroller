@@ -35,7 +35,25 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+        </cTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/sdlscroller</output>
+        </linkerTool>
       </compileType>
+      <packaging>
+        <packType>Tar</packType>
+        <output>${CND_DISTDIR}/package/sdlscroller.tar</output>
+        <packFileList>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+        </packFileList>
+      </packaging>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
